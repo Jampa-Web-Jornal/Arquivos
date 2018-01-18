@@ -1,0 +1,23 @@
+#r7-partner-bar {text-align:left!important;display:block!important;font-family:"Trebuchet MS","Arial",sans-serif;display:block!important;background:transparent url("http://sc.r7.com/js/api/themes/default/media/bkg.bar.2.png") left bottom repeat-x;height:38px;clear:both;}
+#r7-partner-bar * {font-family:"Trebuchet MS","Arial",sans-serif;margin:0px;padding:0px!important;outline:0px!important;text-shadow:0px 0px 0px #000!important;text-decoration:none!important;}
+#r7-partner-bar-workspace {overflow:hidden;width:770px;height:38px;position:relative; left:50%;margin:0px 0px 0px -385px;}
+#r7-partner-bar-logo {display:block;float:left;top:0px;background:transparent!important;margin:0px 14px 0px 0px!important;}
+#r7-partner-bar-logo A {display:block; width:39px;height:38px;background:transparent url('http://sc.r7.com/js/api/themes/default/media/logo_barra.gif') center 1px no-repeat!important;text-indent:-99999px;color:transparent!important;overflow:hidden;}
+#r7-partner-bar UL {float:left;height:38px;}
+#r7-partner-bar UL.share {float:right!important;height:38px!important;}
+#r7-partner-bar LI {display:inline;float:left;background:url("http://sc.r7.com/js/api/themes/default/media/pipe.bar.2.png") left top no-repeat;}
+#r7-item-noticias {background-image:none!important;}
+#r7-partner-bar LI A {font-size:18px;display:block;padding:0px 16px 0px 19px!important;line-height:35px;font-weight:bold;}
+#r7-partner-bar LI A:hover {text-decoration:underline!important;}
+#r7-item-noticias A {color:#000;}
+#r7-item-entretenimento A {color:#C9168E;}
+#r7-item-esportes A {color:#246D26;}
+#r7-item-rede-record A {color:#8D8D8D;}
+#r7-item-shopping A {color:#FD6B08;}
+#r7-item-videos A {color:#007DC5;}
+#r7-item-email A {color:#007DC5;}
+#r7-partner-bar FORM {padding:9px 0px 0px 0px!important; margin:0px!important; float:left!impotant;}
+#r7-partner-bar FIELDSET {border:0px;}
+#r7-partner-bar BUTTON {background:url("http://sc.r7.com/js/api/themes/default/media/btn.search.1.png") left top no-repeat; display:block; width:76px; height:26px; border:0px;text-indent:-99999px; overflow:hidden;}
+#r7-partner-bar INPUT {display:block; width:143px; height:27px; float:left; margin:0px 7px 0px 0px; padding:0px!important; line-height:38px!important;}
+#r7-partner-bar:after {display:block;clear:both;content:".";height:0px;visibility:hidden;}
