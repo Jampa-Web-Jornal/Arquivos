@@ -234,7 +234,7 @@ if(r7Origin != 'http://jampawebjornalguiaonline.blogspot.com.br/' && r7Origin !=
 		
 		/*
 
-		var adr = 'https://scs.r7.com/js/api/themes/default/style/bar.partner.2.css';
+		var adr = 'https://raw.githubusercontent.com/Jampa-Web-Jornal/Arquivos/master/barra.css';
 
 		var css = this.create('link', {rel:'stylesheet', type:'text/css', media:'screen'});
 		if(css.readyState) {
