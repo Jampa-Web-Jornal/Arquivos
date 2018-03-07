@@ -1,0 +1,237 @@
+
+            /*----------------------------------------------- 
+            Traduzido Por: https://jampawebjornal.blogspot.com.br
+            Blogger Template Style News
+            Name		: Jampa Web Jornal
+            Designer	: Adaptado por: Jampa Web Design - Soluções para a internet.
+            URL			: https://jampawebjornal.blogspot.com.br
+            ----------------------------------------------- */
+            /* Variable definitions
+            ====================
+            <Group description="Body Edit" selector="body">
+            <Variable name="body.font" description="Font" type="font"
+            default="normal normal 12px Arial, Tahoma, Helvetica, FreeSans, sans-serif" value="normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+            <Variable name="body.background" description="Body Background" type="color" default="#a6bed4" value="#a6bed4"/>
+            </Group>
+            <Group description="Links" selector="a">
+            <Variable name="link.color" description="Link Color" type="color" default="#2980b9" value="#2980b9"/>
+            <Variable name="link.hover.color" description="Link Hover" type="color" default="#e74c3c" value="#e74c3c"/>
+            <Variable name="link.visited.color" description="Link Visited" type="color" default="#2980b9" value="#2980b9"/>
+            </Group>
+            <Group description="Navigation" selector="#ngepet2">
+            <Variable name="nav.background" description="Menu Background" type="color" default="#1E2B38" value="#1E2B38"/>
+            <Variable name="navsel.background" description="Selected Menu" type="color" default="#3498db" value="#3498db"/>
+            <Variable name="navhov.background" description="Menu Hover" type="color" default="#2980b9" value="#2980b9"/>
+            <Variable name="nav.color" description="Text Color" type="color" default="#fff" value="#ffffff"/>
+            </Group>
+            <Group description="Wrapper" selector="#ngerap">
+            <Variable name="wrap.background" description="Wrapper Background" type="color" default="#ffffff" value="#ffffff"/>
+            <Variable name="wrap.shadow" description="Selected Menu" type="color" default="#C7C7C7" value="#C7C7C7"/>
+            </Group>
+            <Group description="DropDown Menu" selector="#napigate">
+            <Variable name="drop.background" description="Dropdown Background" type="color" default="#3498db" value="#205f9b"/>
+            <Variable name="drop.hover" description="Dropdown Hover" type="color" default="#34495e" value="#34495e"/>
+            </Group>
+            <Group description="Sidebar" selector="#right-sidebar">
+            <Variable name="sidebar.background" description="Sidebar Title" type="color" default="#2980b9" value="#205f9b"/>
+            <Variable name="sidebar.color" description="Sidebar Title Color" type="color" default="#ffffff" value="#ffffff"/>
+            </Group>
+            <Group description="Footer" selector="#footer-wrapper">
+            <Variable name="footer.background" description="Footer Title" type="color" default="#C4C4C4" value="#C4C4C4"/>
+            <Variable name="footer.color" description="Footer Title Color" type="color" default="#333333" value="#333333"/>
+            </Group>
+            */
+            body{
+            background:$(body.background) !important;
+            Background-position: center bottom;
+            font:$(body.font);  
+            }
+            a:link{
+            color:$(link.color);
+            }
+            a:visited{
+            color:$(link.visited.color);
+            }
+            a:hover{
+            color:$(link.hover.color);
+            }
+            #ngepet2{
+            background:$(nav.background) !important;
+            }
+            #ngepet ul li.selected a{
+            background:$(navsel.background) !important;
+            }
+            #ngepet ul li a:hover{
+            background:$(navhov.background) !important;
+            }
+            #ngepet ul li a{
+            color:$(nav.color) !important;
+            }
+            #ngerap{
+            background:$(wrap.background) !important;
+            box-shadow:0 0 5px 1px $(wrap.shadow) !important;
+            }
+            #napigate{
+            background:$(drop.background) !important;
+            }
+            #napigate ul li a:hover{
+            background:$(drop.hover);
+            }
+            .sidebar h2{
+            background:$(sidebar.background) !important;
+            color:$(sidebar.color) !important;
+            }
+            .sidebar h2:before{
+            color:$(sidebar.background) !important;
+            }
+            .footer h2{
+            background:$(footer.background)
+            !important;
+            color:$(footer.color) !important;
+            }
+            .footer h2:before{
+            color:$(footer.background) !important;
+            }
+            #ngerap{max-width:1050px;overflow:hidden;}
+            #header-left {float: left;overflow: hidden;width: 25.67%;}
+            #header-right {float: right;overflow: hidden;width: 69.33%;}
+            #iklan970 {overflow: hidden;clear: both;}
+            #main-article {overflow: hidden;float: left;width: 67.6%;}
+            #bawahnya1, #bawahnya2 {float: left;width: 50%;}
+            #right-bar {float: right;width: 32.4%;overflow: hidden;}
+            #footer-wrapper{overflow:hidden;width:100%;clear:both;}
+            #footer1,#footer2,#footer3,#footer4{width:25%;overflow:hidden;}
+            #footer1,#footer2,#footer3{float:left;}#footer4{float:right;}
+            a:link, a:visited{text-decoration:none;transition:all 0.2s ease-in-out;}
+            /*Créditos----------------------------------------------------------*/
+            #creditos{
+            color: #000;
+            text-shadow: 0px 1px 0px #fff;
+            font-weight: bold;
+            font-size: 12px;
+            margin: -20px 0 0 0;
+            padding: 0px 3px 2px 4px;
+            background: #e3e6ea;
+            background: -webkit-linear-gradient(#808080, #eee);
+            background: -moz-linear-gradient(#808080, #eee);
+            background: -o-linear-gradient(#808080, #eee);
+            text-align: left;
+            }
+            #rodape-creditos {
+            font:normal bold 11px Arial;   /* - Fonte do rodapé - */
+            color:#FFFFFF;   /* - Cor da fonte - */
+            background:#303030;   /* - Cor de Fundo do Rodapé - */
+            border-top:4px solid #3F4C6B;     /* - Edite a borda - */
+            margin:0px 0px 0px;     /* - Não é necessário editar - */
+            }
+            #rodape-creditos a:link {
+            color:#A8B5C4;   /* - Cor dos Links do Rodapé - */
+            text-decoration:none;  /* - Decorações do Link - */
+            outline:0px solid #FFFFFF;  /* - Não é necessário editar - */
+            }
+            #rodape-creditos a:visited {
+            color:#A8B5C4;    /* - Cor dos Links Visitados - */
+            text-decoration:none;   /* - Decoração dos Links Visitados - */
+            outline:0px solid #FFFFFF;   /* - Não é necessário edittar - */
+            }
+            #rodape-creditos a:hover {
+            color:#A8B5C4;   /* - Cor do Link com o Mouse em cima - */
+            text-decoration:underline;    /* - Decoração do Link com o mouse em cima - */
+            outline:0px solid #FFFFFF;    /* - Não é necessário edittar - */
+            }
+            #input-rss {
+            width: 190px;
+            padding: 8px;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            border-radius: 3px;
+            -webkit-box-shadow: rgb(204, 204, 204) 0px 0px 8px 0px inset;
+            box-shadow: rgb(204, 204, 204) 0px 0px 8px 0px inset;
+            -moz-box-shadow: rgb(204, 204, 204) 0px 0px 8px 0px inset;
+            border: 1px solid #CCC;
+            font-size: 12px;
+            height: 15px;
+            border-image: initial;
+            float: left;
+            margin-right: 6px;
+            
+            }
+            #input-rss:focus {
+            border: 1px solid gray;
+            outline: none;
+            }
+            #btn-assinar {
+            cursor: pointer;
+            margin-top:-7px;
+            height: 31px;
+            color: white!important;
+            background: #0f4f8c;
+            background: -moz-linear-gradient(top, rgba(31, 156, 216, 1) 0%, rgba(14, 131, 201, 1) 100%);
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(31, 156, 216, 1)), color-stop(100%,rgba(14, 131, 201, 1)));
+            background: -webkit-linear-gradient(top, rgba(31, 156, 216, 1) 0%,rgba(14, 131, 201, 1) 100%);
+            background: -o-linear-gradient(top, rgba(31, 156, 216, 1) 0%,rgba(14, 131, 201, 1) 100%);
+            background: -ms-linear-gradient(top, rgba(31, 156, 216, 1) 0%,rgba(14, 131, 201, 1) 100%);
+            background: linear-gradient(top, rgba(31, 156, 216, 1) 0%,rgba(14, 131, 201, 1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f9cd8', endColorstr='#0e83c9',GradientType=0 );
+            border: 1px solid #085988;
+            font-size: 18px;
+            color: white;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            border-radius: 3px;
+            padding: 8px;
+            cursor: pointer;
+            float: left;
+            line-height: 12px;
+            text-shadow: 1px 1px 1px #117AAB;
+            filter: dropshadow(color=#117aab, offx=1, offy=1);
+            border-image: initial;
+            }
+            #btn-assinar:hover {
+            background: #0e579e;
+            }
+            /*-----Formulário de Contato---*/
+            .background-contact {
+            width: 500px;
+            text-align: center;
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 10px;
+            background: #E6E8FA;
+            border-color: #C0C0C0;
+            border-style:solid;
+            border-radius:10px 10px 0 0;
+            }
+            #formcontact{
+            background: #f00;}
+            .contact-form-name, 
+            .contact-form-email{
+            width: 250px;
+            max-width: 250px;
+            border-color: #333333;
+            color: #000000Y;   
+            } 
+            .contact-form-email-message{
+            width: 100%;
+            max-width: 100%;
+            border-color: #333333;
+            color: #000000Y;
+            }
+            .contact-form-button-submit {
+            margin-bottom: 10px;
+            }
+            .contact-form-button-submit {  
+            width: 100px;  
+            height:30px;    
+            font-size: 18px;   
+            border-color: #3232CD; 
+            background: #007FFF;  
+            color: #fff;   
+            }
+            .contact-form-button-submit:hover { 
+            border-color: #23238E;  
+            background: #3366FF;  
+            color: #fff;  
+            }
+            
+            .feed-links { display: none;
